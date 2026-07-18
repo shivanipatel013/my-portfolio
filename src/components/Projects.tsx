@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Tilt } from 'react-parallax-tilt';
+import Tilt  from 'react-parallax-tilt';
 import { ExternalLink } from 'lucide-react';
 import { FaGithub } from 'react-icons/fa';
 

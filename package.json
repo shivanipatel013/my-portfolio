@@ -27,7 +27,6 @@
     "react-intersection-observer": "^10.1.0",
     "react-parallax-tilt": "^1.7.333",
     "react-router-dom": "^7.18.1",
-    "react-tsparticles": "^2.12.2",
     "react-typed": "^2.0.12",
     "swiper": "^14.0.5",
     "tailwind-merge": "^3.6.0",

@@ -31,15 +31,14 @@ const ProjectCard = ({ project, index }: { project: any; index: number }) => {
       transition={{ duration: 0.6, delay: index * 0.2 }}
     >
       <Tilt
-        options={{
-          max: 15,
-          scale: 1.02,
-          speed: 400,
-          glare: true,
-          "max-glare": 0.2,
-        }}
-        className="glass-card overflow-hidden h-full flex flex-col"
-      >
+  tiltMaxAngleX={15}
+  tiltMaxAngleY={15}
+  scale={1.02}
+  transitionSpeed={400}
+  glareEnable={true}
+  glareMaxOpacity={0.2}
+  className="glass-card overflow-hidden h-full flex flex-col"
+>
         <div className="relative h-60 w-full overflow-hidden border-b border-white/10 group">
           <div className="absolute inset-0 bg-primary/20 group-hover:bg-transparent transition-colors z-10"></div>
           <img 
